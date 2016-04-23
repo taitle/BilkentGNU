@@ -8,10 +8,10 @@ int main(void){
 	printf("Enter the username: ");
 	scanf("%s",x);
 	if(strcmp(x, str)==0){
-		printf("Correct, lets go eat some kumpir.\n");
+		printf("Correct.\n");
 	}
 	else{
-		printf("Wrong, and i'm hungry.\n");
+		printf("Wrong.\n");
 	}
 	
 	return 0;
